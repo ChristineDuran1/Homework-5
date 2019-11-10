@@ -32,7 +32,7 @@
           const now = moment();
           const dateDisplay = now.format('MMMM Do YYYY, h:mm:ss a')
 
-          clock.textContent = dateDisplay;
+          clock.textContent = humanReadable;
         }
         setInterval(updateTime, 1000);
 
